@@ -1,4 +1,4 @@
-package ru.mirovoy123.javaMirea.part1.ex3;
+package part1.ex3;
 
 
 public class Main {

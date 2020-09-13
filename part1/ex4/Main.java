@@ -1,4 +1,4 @@
-package ru.mirovoy123.javaMirea.part1.ex4;
+package part1.ex4;
 
 
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package ru.mirovoy123.javaMirea.part2.ex1;
+package part2.ex1;
 
 public class Main {
     public static void main(String[] args){

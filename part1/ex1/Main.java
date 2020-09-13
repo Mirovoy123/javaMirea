@@ -1,4 +1,4 @@
-package ru.mirovoy123.javaMirea.part1.ex1;
+package part1.ex1;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package ru.mirovoy123.javaMirea.part2.ex2;
+package part2.ex2;
 
 public class Dog {
     private String name;
@@ -26,9 +26,8 @@ public class Dog {
 
     @Override
     public String toString() {
-        return "Dog{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                '}';
+        return "Кличка:" + name +
+                "\nВозраст:" + age +
+                "\nЧеловеческий возраст:" + getHumanAge();
     }
 }
