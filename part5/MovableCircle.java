@@ -1,11 +1,11 @@
 package part5;
 
-public class MovableCircle extends MovablePoint {
-    private int radius;
+public class MovableCircle extends Circle {
+    protected double radius;
     private MovablePoint center;
 
     public MovableCircle(int x, int y, int xSpeed, int ySpeed, int radius) {
-        super(x, y, xSpeed, ySpeed);
+        center = new MovablePoint(x, y, xSpeed, ySpeed);
         this.radius = radius;
     }
 
