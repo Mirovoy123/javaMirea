@@ -9,17 +9,17 @@ public class Ex1 extends JFrame {
             switch ((int) (Math.random() * 3)) {
                 case 0: {
                     Shape o = new Line();
-                    o.paintF(g);
+                    o.draw(g);
                     break;
                 }
                 case 1: {
                     Shape o = new Rectangle();
-                    o.paintF(g);
+                    o.draw(g);
                     break;
                 }
                 case 2: {
                     Shape o = new Circle();
-                    o.paintF(g);
+                    o.draw(g);
                     break;
                 }
             }
