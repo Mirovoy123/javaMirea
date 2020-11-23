@@ -11,6 +11,7 @@ public class App extends JFrame {
         setLayout(new BorderLayout());
 
         JButton northButton = new JButton("NORTH");
+        northButton.setPreferredSize(new Dimension(200,200));
         JButton southButton = new JButton("SOUTH");
         JButton eastButton = new JButton("EAST");
         JButton westButton = new JButton("WEST");

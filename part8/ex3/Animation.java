@@ -1,6 +1,6 @@
 package part8.ex3;
 
-public class Animation implements Runnable {
+public class Animation extends Thread {
 
     private Ex3 mainWindow;
     private String[] abcArgs;

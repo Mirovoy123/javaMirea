@@ -8,10 +8,11 @@ import java.awt.event.ActionListener;
 public class Fonts extends JFrame {
     public Fonts() {
         super("Шрифты");
+        Font taskFont = new Font("Arial", Font.ITALIC, 15);
 
         Label label1 = new Label("Выберите шрифт");
         label1.setBounds(70, 40, 300, 20);
-        label1.setFont(new Font("Arial", Font.ITALIC, 15));
+        label1.setFont(taskFont);
         add(label1);
 
         JComboBox<String> fontBox = new JComboBox<>();
@@ -24,7 +25,7 @@ public class Fonts extends JFrame {
 
         Label label2 = new Label("Выберите цвет");
         label2.setBounds(70, 120, 300, 20);
-        label2.setFont(new Font("Arial", Font.ITALIC, 15));
+        label2.setFont(taskFont);
         add(label2);
 
         JComboBox<String>  colorBox = new JComboBox<>();
