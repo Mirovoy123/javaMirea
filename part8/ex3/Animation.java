@@ -14,11 +14,11 @@ public class Animation extends Thread {
         abcArgs = args;
         mainWindow = new Ex3(args[0]);
         while (true)
-            run();
+            start();
     }
 
     @Override
-    public void run() {
+    public void start() {
         try {
             Thread.sleep(100);
             counter = (counter + 1) % abcArgs.length;
