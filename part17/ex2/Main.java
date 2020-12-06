@@ -9,11 +9,12 @@ public class Main {
 
         Scanner systemSc = new Scanner(System.in);
         PrintWriter pw = new PrintWriter(file);
-        FileReader fr = new FileReader(file);
-        Scanner fileSc = new Scanner(fr);
 
         pw.print(systemSc.nextLine());
         pw.close();
+
+        FileReader fr = new FileReader(file);
+        Scanner fileSc = new Scanner(fr);
 
         try {
             if (fileSc.hasNextLine())

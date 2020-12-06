@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        FileWriter file = new FileWriter("C://Users//cool-//Desktop//proga//javafiles//file.txt");
+        File file = new File("C://Users//cool-//Desktop//proga//javafiles//file.txt");
 
         Scanner sc = new Scanner(System.in);
         PrintWriter printWriter = new PrintWriter(file);
